@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form 4</title>
+    <link rel="stylesheet/less"  type="text/less" href="../styles/main.less">
+    <link rel="stylesheet/less"  type="text/less" href="../styles/form4.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
+</head>
+<body>
+
+<div class="container-4">
+    <p class="title">Form №4</p>
+    <div class="all-fields">
+        <div class="sub-title">
+            <p>Novell Services Login</p>
+        </div>
+        <ul>
+            <li>
+                <label>
+                    <p>Username:</p>
+                    <input type="text">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <p>Password:</p>
+                    <input type="text">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <p>City of Employment</p>
+                    <input type="text">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <p>Web server</p>
+                    <select>
+                        <option>Select 1</option>
+                        <option>Select 2</option>
+                        <option>Select 3</option>
+                    </select>
+                </label>
+            </li>
+            <li class="check-and-radio-padding">
+                <label>
+                    <p>Please specify your role</p>
+                    <div class="check-and-radio" style="width: 214px">
+                        <input type="radio" name="role">Admin<br>
+                        <input type="radio" name="role">Engine<br>
+                        <input type="radio" name="role">Manager<br>
+                        <input type="radio" name="role">Guest
+                    </div>
+                </label>
+            </li>
+            <li class="check-and-radio-padding">
+                <label>
+                    <p>Single Sign-on to the following</p>
+                    <div class="check-and-radio">
+                        <input type="checkbox"> Mail<br>
+                        <input type="checkbox"> Payroll<br>
+                        <input type="checkbox"> Self-service
+                    </div>
+                </label>
+            </li>
+
+        </ul>
+
+    </div>
+    <div>
+        <input type="button" value="Login" class="submit">
+        <input type="button" value="Reset" class="submit">
+    </div>
+</div>
+</body>
+</html>

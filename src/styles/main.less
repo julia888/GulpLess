@@ -1,0 +1,84 @@
+@black: black;
+@yellow: yellow;
+@aqua: aqua;
+@white: white;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  border: 1px solid @black;
+  margin: 10px auto auto auto;
+}
+ul{
+  margin-top: 5px;
+  li{
+    background-color: @yellow;
+    list-style-type: none;
+    label{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &:nth-child(2n){
+      background-color: @aqua;
+    }
+  }
+}
+.title{
+  background-color: @white;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+}
+input[type='text'], select{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid @black;
+  margin: 5px 0;
+}
+select{
+  width: 171px;
+}
+.check-and-radio{
+  width: 280px;
+}
+.sub-title{
+  padding-top: 5px;
+  text-align: center;
+}
+.style-btn{
+  color: @white;
+  font-size: 17px;
+  background-color: @aqua;
+  font-weight: bold;
+  margin-right: -5px;
+  &:hover{
+    border-radius: 30px;
+    background-color: @yellow;
+    border: 3px solid @aqua;
+    color: @aqua;
+  }
+}
+.registration{
+  .style-btn();
+  width: 200px;
+  height: 40px;
+}
+
+.submit{
+  .style-btn();
+  width: 80px;
+  height: 40px;
+}
+textarea{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.check-and-radio-padding {
+  padding: 10px 0;
+}
