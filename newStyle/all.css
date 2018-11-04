@@ -8,8 +8,8 @@
 .container-2 {
   width: 420px;
 }
-.li-form-3 {
-  padding-right: 110px;
+.li-form-2 {
+  padding-right: 100px;
 }
 
 .container-3 {
@@ -121,7 +121,8 @@ textarea {
   margin-bottom: 5px;
 }
 .check-and-radio-padding {
-  padding: 10px 0;
+  padding: 10px 0 !important;
+  width: 100%;
 }
 
 * {
