@@ -12,3 +12,5 @@ gulp.task('less', function () {
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('newStyle'));
 });
+
+gulp.watch('src/**/*.less', gulp.series('less'));
